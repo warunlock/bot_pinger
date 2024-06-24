@@ -1,0 +1,7 @@
+{
+ "TelegramBotToken": "1212121212121212sdsdsdsdsd232323232323",
+  "TO":120,
+  "Hosts": [
+  {"Name":"Work","IP":"192.168.88.171","Chat":-1111111111111,"CStatus":-1},
+  {"Name":"Dom","IP":"192.168.88.168","Chat":-1222222222222,"CStatus":-1}]
+}
