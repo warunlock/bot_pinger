@@ -66,23 +66,6 @@ func main() {
 
 	go func() { //sending message form mts.msg to user
 
-		/*msg := tgbotapi.NewInlineQueryResultArticleMarkdown("-635084032", "yes!", "yes!!")
-
-		inlineConfig := tgbotapi.InlineConfig{
-			InlineQueryID: "-635084032",
-			IsPersonal:    true,
-			CacheTime:     0,
-			Results:       []interface{}{msg},
-		}
-
-		if _, err := bot.AnswerInlineQuery(inlineConfig); err != nil {
-			log.Println(err)
-		}*/
-		/*	msg := tgbotapi.NewMessage(-635084032, "yes2")
-			if _, err = bot.Send(msg); err != nil {
-				log.Println(err)
-			}
-		*/
 		for {
 			for inx, _ := range configuration.Hosts {
 				host := &configuration.Hosts[inx]
